@@ -1,4 +1,4 @@
-package Lesson2;
+﻿package Lesson2;
 
 public class Alcohol {
 
@@ -74,7 +74,7 @@ public class Alcohol {
         Alcohol cheapAlcohol = new Alcohol();
         cheapAlcohol.setMark(5);
 
-        Alcohol expensiveAlcohol = new Alcohol("vine",20);
+        Alcohol expensiveAlcohol = new Alcohol("wine",20);
 
         System.out.println(cheapAlcohol.getMark());
         System.out.println(expensiveAlcohol.getName());
