@@ -1,38 +1,23 @@
 public class Human {
-    {
+
         protected String name;
         protected String surname;
-        public void setName(String name) {
-    }){
-
-        }
-        public String getName()
-        return name;
-        public void setSurname(String surname){
-
-        }
-        public String getSurname(){
-            return surname;
-        }
-    }
+        public void setName(String newName) {name = newName}
+        public String getName(){ return name;}
+        public void setSurname(String newSurname){surname = newSurname}
+        public String getSurname(){ return surname;}}
 
     public class Alcoholic extends Human{
-        private String drink;
+        private String health;
 
-        public Alcoholic(String n, String s, String p){
+        public Alcoholic(String n, String s, String h){
             String name = n;
             String surname = s;
-           String drink = p;
+           String health = h;}
+           public String getHealth() {
+            return health;
         }
+            public void setHealth (String badHealth) {
+            badHealth = health;
+        } }
 
-
-
-        public String getDrink() {
-            return drink;
-        }
-
-        public void setDrink(String drink) {
-            this.drink = drink;
-        }
-    }
-}
