@@ -1,29 +1,26 @@
 
     public class Alcoholic extends Human{
-        private String health;
-        private Alcohol vodka;
+
+        private Alcohol alcohol;
 
 
-        public Alcoholic(String n, String s, String h){
-            String name = n;
-            String surname = s;
-            String health = h;}
-        public String getHealth() {
-            return health;
+        public Alcoholic(String n, String s, Alcohol a){
+            this.name = n;
+            this.surname = s;
+            this.alcohol = a;
+          //   super (n,s);
         }
-        public void setHealth (String badHealth) {
-            badHealth = health;
-        }
-
-        public Alcohol getVodka() {
-            return vodka;
+        public void toDrink (Alcohol alcohol) {
+            System.out.println(name + " drinks " + alcohol.getName());
         }
 
-        public void setVodka(Alcohol vodka) {
-            this.vodka = vodka;
+        public Alcohol getAlcohol() {
+            return alcohol;
         }
 
-        public void drinkVodka (String vodka){}
+        public void setAlcohol(Alcohol alcohol) {
+            this.alcohol = alcohol;
+        }
     }
 
 
