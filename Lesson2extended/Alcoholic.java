@@ -1,6 +1,8 @@
-public class Alcoholic {
+
     public class Alcoholic extends Human{
         private String health;
+        private Alcohol vodka;
+
 
         public Alcoholic(String n, String s, String h){
             String name = n;
@@ -11,6 +13,17 @@ public class Alcoholic {
         }
         public void setHealth (String badHealth) {
             badHealth = health;
-        } }
+        }
 
-}
+        public Alcohol getVodka() {
+            return vodka;
+        }
+
+        public void setVodka(Alcohol vodka) {
+            this.vodka = vodka;
+        }
+
+        public void drinkVodka (String vodka){}
+    }
+
+
