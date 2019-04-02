@@ -70,16 +70,7 @@
             this.mark = mark;
             this.isSold = isSold;}
 
-        public static void main(String[] args) {
-            Alcohol cheapAlcohol = new Alcohol();
-            cheapAlcohol.setMark(5);
 
-            Alcohol expensiveAlcohol = new Alcohol("wine",20);
-
-            System.out.println(cheapAlcohol.getMark());
-            System.out.println(expensiveAlcohol.getName());
-
-        }
     }
 
 
